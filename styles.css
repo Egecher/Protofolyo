@@ -1,0 +1,136 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #00151F;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    border-radius: 10px;
+    background: #000;
+    color: aliceblue;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    height: 13vh;
+    padding: 20px;    
+    display: flex;
+    align-items: center;
+}
+
+header h1 {
+    font-size: 2.5em;
+    color: #ffffffed;
+}
+
+header nav ul a {
+    color: inherit;
+    text-decoration: none;
+    font-size: 1.4em;
+    margin: 0 20px;
+    transition: color 0.3s ease;
+}
+
+header nav ul a:hover {
+    color: #ffffffd4;
+}
+
+.container {
+    margin: 20px auto;
+    max-width: 900px;
+    padding: 0 20px;
+}
+
+h2 {
+    font-size: 2em;
+    color: #7289da;
+    margin-bottom: 15px;
+}
+
+p {
+    font-size: 1.2em;
+    color: #ffffffd4;
+    margin-bottom: 15px;
+}
+
+ul {
+    list-style: none;
+}
+
+.girismetni {
+    margin-top: 20px;
+}
+
+.kutu {
+    background-color: #7289da;
+    padding: 20px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+
+.kutu img {
+    display: block;
+    margin: 0 auto 10px;
+}
+
+/** blog **/
+.blog-post {
+    background: #00283A;
+    margin-bottom: 15px;
+    border-radius: 10px;
+    padding: 10px;
+    margin-top: 15px;
+}
+
+/** iletişim **/
+form {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+label {
+    color: #ffffff; 
+    margin-bottom: 10px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 300px;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+button[type="submit"] {
+    background-color: #7289da;
+    color: #ffffff; 
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button[type="submit"]:hover {
+    background-color: #5f73bc;
+}
+
+footer {
+    background: #000;
+    color: aliceblue;
+    border-radius: 10px;
+    padding: 20px;    
+    font-family: 'Courier New', Courier, monospace;
+    margin-top: 10px;
+}
+
+.footp {
+    text-align: center;
+}
